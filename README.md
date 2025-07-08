@@ -5,7 +5,7 @@ O monitoramento no Azure é fundamental para garantir a observabilidade, desempe
 🧩 Um pouco do que podemos fazer com seu uso:
 
   * Monitorar uso de CPU em VMs	
-  * Usar Metrics + Alertas.
+  * Usar Metricas + Alertas.
   * Rastrear falhas de APIs
   * Uso do Application Insights.
   * Verificação de tentativas de login mal-sucedidas em VMs	
