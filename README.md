@@ -22,49 +22,49 @@ O monitoramento no Azure é fundamental para garantir a observabilidade, desempe
  ### Criação de Recursos no Azure com Monitoramento e Alertas.
 
 
- * Criar um Resource Group
+ * Criar um Resource Group <br>
     📌 Para organizar os recursos de forma lógica, iniciamos criando um Resource Group.
 
 ![alt text](<imagens/1 criar um resource group.png>)
 
-* Criar Tags para os Recursos
+* Criar Tags para os Recursos<br>
     📌 As tags permitem classificar e organizar recursos, o que facilita a gestão e o controle de custos.
 
 ![alt text](<imagens/ 2 criar tags para os recursos.png>)
 
-* Criar a Máquina Virtual (VM)
+* Criar a Máquina Virtual (VM)<br>
     📌 Criamos uma VM dentro do Resource Group configurado, especificando SO, tamanho, disco, rede e outras opções.
 
 ![alt text](<imagens/ 3 criar vm.png>)
 
-* Ativar o Monitoramento Durante a Criação
+* Ativar o Monitoramento Durante a Criação<br>
     📌 Depois de criada(poderia ser junto no processo de criação) a VM, habilitamos o monitoramento com o Azure Monitor, o que permite acompanhar o desempenho e integridade da VM.
 
 ![alt text](<imagens/4 apos criada ativar o monitoramento.png>)
 
-* Finalizando a Habilitação do Monitoramento
+* Finalizando a Habilitação do Monitoramento<br>
     📌 Confirme e salve as configurações de monitoramento para que a VM comece a ser monitorada.
 
 ![alt text](<imagens/5 ativando monitoramento.png>)
 
 ![alt text](<imagens/6 habilitar por fim.png>)
 
-* Criar um Alerta
+* Criar um Alerta <br>
    📌 Com o monitoramento ativo, criamos uma regra de alerta para ser notificado ao atingir determinados critérios.
 
 ![alt text](<imagens/7 Criar o alerta.png>)
 
-* Seleção do Escopo
+* Seleção do Escopo <br>
     📌 Selecionamos o escopo do alerta, que neste caso é a própria VM criada.
 
 ![alt text](<imagens/8 Seleção do escopo neste caso a vm.png>)
 
-* Seleção da Condição
+* Seleção da Condição <br>
     📌 Definimos a condição da métrica que vai disparar o alerta. Por exemplo, alto uso de CPU, falhas de disco etc.
 
 ![alt text](<imagens/9 seleção da condição para a regra.png>)
 
-* Criar Grupo de Ação
+* Criar Grupo de Ação <br>
     📌 Criamos um Grupo de Ação, que define quem será notificado e qual ação será tomada em caso de alerta (ex: e-mail, webhook).
 
 ![alt text](<imagens/ 10 criando o grupo de ação.png>)
